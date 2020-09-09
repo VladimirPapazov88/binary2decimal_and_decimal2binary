@@ -1,6 +1,6 @@
 def encode(k):
         if k // 2 != 0:
-                dvoika(k // 2)
+                encode(k // 2)
         csl = k % 2
         print(csl, sep="", end="")
 
